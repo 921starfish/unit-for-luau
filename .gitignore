@@ -12,3 +12,12 @@ profile.svg
 
 # Time trace
 trace.json
+
+# Wally Packages
+[Dd]evPackages/
+[Pp]ackages/
+[Ss]erverPackages/
+[Ww]ally.lock
+
+# Luau Language Server files
+sourcemap.json

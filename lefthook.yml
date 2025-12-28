@@ -1,0 +1,6 @@
+pre-commit:
+  commands:
+    format:
+      run: task format
+    lint:
+      run: task lint

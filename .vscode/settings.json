@@ -1,0 +1,5 @@
+{
+	"editor.formatOnSave": true,
+	"luau-lsp.plugin.enabled": false,
+	"luau-lsp.sourcemap.autogenerate": false
+}

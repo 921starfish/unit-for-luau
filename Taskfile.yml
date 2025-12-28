@@ -1,0 +1,21 @@
+# https://taskfile.dev
+
+version: "3"
+
+tasks:
+  default:
+    desc: task --list --sort none
+    cmds:
+      - task --list --sort none
+    silent: true
+
+  format:
+    desc: Format all files
+    cmds:
+      - stylua ./src/
+  
+  lint:
+    desc: Lint all files
+    cmds:
+      - selene ./src
+      - luau-lsp analyze --base-luaurc=./.luaurc --platform=standard ./src
