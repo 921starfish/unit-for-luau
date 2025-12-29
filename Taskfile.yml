@@ -18,4 +18,4 @@ tasks:
     desc: Lint all files
     cmds:
       - selene ./src
-      - luau-lsp analyze --base-luaurc=./.luaurc --platform=standard ./src
+      - luau-lsp analyze --base-luaurc=./.luaurc --sourcemap=./sourcemap.json --platform roblox ./src
