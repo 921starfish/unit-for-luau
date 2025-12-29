@@ -3,7 +3,7 @@
 A minimal `Unit` type implementation for Luau.
 
 > [!WARNING]
-> This library is currently in **beta**. Tests are not yet implemented.
+> This library is currently in **beta**.
 
 ## What is Unit Type?
 
