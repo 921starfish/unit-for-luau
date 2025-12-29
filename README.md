@@ -17,7 +17,7 @@ Add the following to your `wally.toml`:
 
 ```toml
 [dependencies]
-Unit = "921starfish/unit@0.9.0"
+Unit = "921starfish/unit@0.9.3"
 ```
 
 ### pesde
