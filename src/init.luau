@@ -1,7 +1,7 @@
 --!strict
 local UnitModule = require(script.Unit)
 
-export type Unit = never
+export type Unit = unknown
 
 return (UnitModule :: unknown) :: {
 	new: () -> Unit,
