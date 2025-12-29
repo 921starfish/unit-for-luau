@@ -1,18 +1,36 @@
 --!strict
 local Unit = {}
-Unit.__index = Unit
 
-type UnitData = { _: never }
+local UnitMetatable = {}
+UnitMetatable.__index = UnitMetatable
 
-export type Unit = typeof(setmetatable({} :: UnitData, Unit))
+function UnitMetatable.__tostring(t)
+	return "()"
+end
+
+function UnitMetatable.__eq(a, b)
+	return true
+end
+
+function UnitMetatable.__lt(a, b)
+	return false
+end
+
+function UnitMetatable.__le(a, b)
+	return true
+end
+
+type UnitData = { __brand: "UnitData" }
+
+export type Unit = typeof(setmetatable({} :: UnitData, UnitMetatable))
 
 -- The only value that exists as a Unit type.
-local UNIT_VALUE = {} :: UnitData
+local UNIT_VALUE = { __brand = "UnitData" } :: UnitData
 
 function Unit.new(): Unit
 	local self = UNIT_VALUE
 
-	return setmetatable(self, Unit)
+	return setmetatable(self, UnitMetatable)
 end
 
 return Unit
