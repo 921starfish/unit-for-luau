@@ -1,7 +1,7 @@
 [package]
 name = "921starfish/unit"
 description = "A minimal Unit type for Luau"
-version = "0.9.1"
+version = "0.9.1.1"
 license = "MIT"
 authors = ["Yūya Hoshino <7694387+921starfish@users.noreply.github.com>"]
 registry = "https://github.com/UpliftGames/wally-index"
