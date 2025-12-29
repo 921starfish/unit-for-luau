@@ -17,8 +17,11 @@ Add the following to your `wally.toml`:
 
 ```toml
 [dependencies]
-Unit = "921starfish/unit@0.9.3"
+Unit = "921starfish/unit@0.9.4"
 ```
+
+> [!NOTE]
+> Due to a Wally limitation, you need to run [Wally Package Types Fixer](https://github.com/JohnnyMorganz/wally-package-types) to use the [`Unit.Unit` type](#type-annotation).
 
 ### pesde
 
