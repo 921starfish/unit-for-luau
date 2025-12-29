@@ -12,14 +12,6 @@ function UnitMetatable.__eq(a, b)
 	return true
 end
 
-function UnitMetatable.__lt(a, b)
-	return false
-end
-
-function UnitMetatable.__le(a, b)
-	return true
-end
-
 type UnitData = { __brand: "UnitData" }
 
 export type Unit = typeof(setmetatable({} :: UnitData, UnitMetatable))
