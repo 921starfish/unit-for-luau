@@ -17,7 +17,7 @@ type UnitData = { __brand: "UnitData" }
 export type Unit = typeof(setmetatable({} :: UnitData, UnitMetatable))
 
 -- The only value that exists as a Unit type.
-local UNIT_VALUE = { __brand = "UnitData" } :: UnitData
+local UNIT_VALUE: UnitData = { __brand = "UnitData" }
 
 local new = function(): Unit
 	local self = UNIT_VALUE
