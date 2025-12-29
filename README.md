@@ -63,7 +63,7 @@ end
 
 #### `Unit.new(): Unit`
 
-Creates and returns a Unit value.
+Returns a Unit value.
 
 #### `Unit.New(): Unit`
 
@@ -73,7 +73,7 @@ Alias for `Unit.new()`.
 
 #### `Unit.unit: Unit`
 
-A pre-created Unit value. Use this when you don't need to create a new instance.
+A Unit value.
 
 #### `Unit.Unit: Unit`
 
