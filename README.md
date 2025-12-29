@@ -4,9 +4,6 @@ A minimal `Unit` type implementation for Luau.
 
 Primarily targets Roblox. It will probably work elsewhere, but it has not been tested on [Luau](https://github.com/luau-lang/luau), [Lute](https://github.com/luau-lang/lute), or [Lune](https://github.com/lune-org/lune).
 
-> [!WARNING]
-> This library is currently in **beta**.
-
 ## What is Unit Type?
 
 Unit type is a type that has exactly one value. It is useful when you need to represent "no meaningful value" in a type-safe way, similar to `void` in other languages but as an actual value.
@@ -19,7 +16,7 @@ Add the following to your `wally.toml`:
 
 ```toml
 [dependencies]
-Unit = "921starfish/unit@0.9.9"
+Unit = "921starfish/unit@1.0.0"
 ```
 
 > [!NOTE]
@@ -27,7 +24,7 @@ Unit = "921starfish/unit@0.9.9"
 
 ### GitHub
 
-Download `Unit.luau` from the [latest release](https://github.com/921starfish/unit-for-luau/releases/latest) and place it wherever you like.
+Download `src.zip` from the [latest release](https://github.com/921starfish/unit-for-luau/releases/latest) and place it wherever you like.
 
 ## Usage
 
