@@ -13,6 +13,14 @@ profile.svg
 # Time trace
 trace.json
 
+# Project place file
+*.rbxlx
+*.rbxl
+
+# Roblox Studio lock files
+*.rbxlx.lock
+*.rbxl.lock
+
 # Wally Packages
 [Dd]evPackages/
 [Pp]ackages/

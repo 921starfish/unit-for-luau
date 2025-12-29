@@ -19,3 +19,18 @@ tasks:
     cmds:
       - selene ./src
       - luau-lsp analyze --base-luaurc=./.luaurc --sourcemap=./sourcemap.json --platform roblox ./src
+
+  sourcemap:
+    desc: Generate sourcemap for the project
+    cmds:
+      - rojo sourcemap default.project.json --output sourcemap.json
+
+  sourcemap-test:
+    desc: Generate sourcemap for the test place
+    cmds:
+      - rojo sourcemap test.project.json --output sourcemap.json
+
+  build:
+    desc: Build a test place file (open it in Studio and press Play)
+    cmds:
+      - rojo build test.project.json -o unit-tests.rbxlx
