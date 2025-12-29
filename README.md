@@ -23,9 +23,9 @@ Unit = "921starfish/unit@0.9.4"
 > [!NOTE]
 > Due to a Wally limitation, you need to run [Wally Package Types Fixer](https://github.com/JohnnyMorganz/wally-package-types) to use the [`Unit.Unit` type](#type-annotation).
 
-### pesde
+### GitHub
 
-TODO
+Download `Unit.luau` from the [latest release](https://github.com/921starfish/unit-for-luau/releases/latest) and place it wherever you like.
 
 ## Usage
 
