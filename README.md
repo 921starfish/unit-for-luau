@@ -2,6 +2,8 @@
 
 A minimal `Unit` type implementation for Luau.
 
+Primarily targets Roblox. It will probably work elsewhere, but it has not been tested on [Luau](https://github.com/luau-lang/luau), [Lute](https://github.com/luau-lang/lute), or [Lune](https://github.com/lune-org/lune).
+
 > [!WARNING]
 > This library is currently in **beta**.
 
@@ -17,7 +19,7 @@ Add the following to your `wally.toml`:
 
 ```toml
 [dependencies]
-Unit = "921starfish/unit@0.9.4"
+Unit = "921starfish/unit@0.9.9"
 ```
 
 > [!NOTE]
